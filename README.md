@@ -10,7 +10,7 @@
 1. 导入：在需要使用此组件的页面配置中引入
 2. 使用示例：
 
-``` html
+```
 <ScrollTabView tabs="{{['头条', '体育', '财经', '娱乐']}}">
     <view slot="头条">1</view>
     <view slot="体育">2</view>
