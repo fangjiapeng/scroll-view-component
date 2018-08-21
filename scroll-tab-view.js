@@ -12,7 +12,6 @@ Component({
       type: Array,
       value: [],
       observer: function(newVal, oldVal) {
-        console.log(666);
         this.updateTabs(newVal);
       }
     }
